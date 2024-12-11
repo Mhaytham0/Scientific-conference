@@ -1,0 +1,27 @@
+/* Style for all links */
+.custom-nav-link {
+    font-size: 1.25rem; /* Larger text */
+    font-weight: bolder; /* Bold text */
+    margin-left: 60px; /* Spacing between links (adjust for RTL layout) */
+    color: black; /* Default color for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Remove spacing for the first link */
+  .custom-nav-link:first-child {
+    margin-left: 0;
+  }
+  
+  /* Style for active link */
+  .custom-nav-link.active {
+    color: red; /* Active link color */
+    /* background-color: lightgray; Optional: add a background for active link */
+    border-radius: 30px;
+    border-color: blue;
+  }
+  .custom-navbar {
+    height: 80px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center; /* Center align the content vertically */
+  }
+  

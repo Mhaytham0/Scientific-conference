@@ -1,0 +1,53 @@
+/* Main container */
+.conference-topics {
+    background: linear-gradient(to bottom, #e8fce8, #d1f8d1); /* Light green gradient */
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1200px;
+    text-align: right; /* Align content to the right */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    direction: rtl; /* Ensure proper layout for Arabic text */
+  }
+  
+  /* Title styling */
+  .conference-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #2c972c; /* Green color */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Divider styling */
+  .conference-divider {
+    width: 150px;
+    height: 4px;
+    background-color: #2c72cc; /* Blue color */
+    margin: 0 auto 20px; /* Centered divider */
+  }
+  
+  /* List styling */
+  .conference-content ul {
+    list-style-type: disc; /* Bullets */
+    padding-right: 20px;
+  }
+  
+  .conference-content li {
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #333; /* Dark gray text */
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .conference-title {
+      font-size: 1.8rem;
+    }
+  
+    .conference-content li {
+      font-size: 1.2rem;
+    }
+  }
+  

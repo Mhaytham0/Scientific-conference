@@ -1,0 +1,51 @@
+.conference-intro {
+    padding: 20px;
+    line-height: 1.8;
+    font-family: "Cairo", sans-serif;
+    text-align: right;
+    direction: rtl;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conference-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .conference-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #16a085;
+    margin-bottom: 20px;
+  }
+  
+  .conference-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .conference-highlight {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .conference-vision,
+  .conference-initiative {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  

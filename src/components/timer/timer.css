@@ -1,0 +1,61 @@
+.timer-container {
+    background: linear-gradient(to bottom, #e8fce8, #d1f8d1); /* Light green gradient */
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1200px; /* Width adjustment */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    direction: rtl; /* Right to Left text */
+  }
+  
+  .timer-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #2c972c; /* Green color */
+    margin-bottom: 20px;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .time-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2c972c; /* Green color */
+  }
+  
+  .time-label {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .timer-title {
+      font-size: 1.8rem;
+    }
+  
+    .time-value {
+      font-size: 2rem;
+    }
+  
+    .time-label {
+      font-size: 1rem;
+    }
+  }
+  

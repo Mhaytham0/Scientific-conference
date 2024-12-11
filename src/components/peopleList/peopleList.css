@@ -1,0 +1,84 @@
+.people-container {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .people-title {
+    font-size: 2.5rem; /* Bigger font size */
+    font-weight: bold; /* Bold title */
+    color: #2c972c; /* Green color */
+    margin-bottom: 20px;
+    position: relative; /* To position the divider under it */
+  }
+  
+  .people-title::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 3px;
+    background-color: #2c972c; /* Divider color */
+    margin: 10px auto; /* Center the divider */
+  }
+  
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns in each row */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .person-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+  }
+  
+  .person-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .person-info {
+    padding: 15px;
+  }
+  
+  .person-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c972c;
+    margin-bottom: 5px;
+  }
+  
+  .person-title {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .people-title {
+      font-size: 1.8rem; /* Adjusted for smaller screens */
+    }
+  
+    .person-name {
+      font-size: 1.1rem;
+    }
+  
+    .person-title {
+      font-size: 0.9rem;
+    }
+  
+    /* Ensure that it adjusts properly on smaller screens */
+    .people-grid {
+      grid-template-columns: 1fr; /* One column in smaller screens */
+    }
+  }
+  
