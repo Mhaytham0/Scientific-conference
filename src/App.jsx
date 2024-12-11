@@ -27,7 +27,7 @@ function App() {
           element={
             <>
               <PictureComponent
-                src="/images/mainPicture.jpg"
+                src="public/mainPicture.jpg"
                 alt="Sample Picture"
                 width="90%"
                 height="650px"
