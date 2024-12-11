@@ -5,22 +5,22 @@ const people = [
   {
     name: "ا.د/سلامة جمعة داوود",
     title: "رئيس جامعة الأزهر",
-    imageUrl: "salama.jpg", // Add image paths here
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/salama.jpg", // Add image paths here
   },
   {
     name: "ا.د/محمد عبد المالك",
     title: "ناءب رءيس الجامعة لشؤن البنات الوجة القبلى",
-    imageUrl: "mohamed.jpg",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/mohamed.jpg",
   },
   {
     name: "ا.د/خلود حسام حسانين",
     title: "عميدة كلية التجارة بنات باسيوط",
-    imageUrl: "kholod.jpg",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/kholod.jpg",
   },
   {
     name: " د/ علياء عبد اللطيف",
     title: "وكيل الكلية لشؤن الدراسات العليا",
-    imageUrl: "alyaa.jpg",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/alyaa.jpg",
   }
 ];
 
