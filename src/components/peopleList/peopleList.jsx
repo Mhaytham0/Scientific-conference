@@ -10,12 +10,12 @@ const people = [
   {
     name: "الامام الاكبر ا.د/ احمد الطيب",
     title: "شيخ الازهر",
-    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/mohamed.jpg",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/refs/heads/master/public/ahmedEl-tayb.jpg",
   },
   {
     name: "أ.د/ محمود صديق",
     title: "نائب رئيس جامعة الأزهر للدراسات العليا والبحوث",
-    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/mohamed.jpg",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/refs/heads/master/public/mahmoudSdek.jpg",
   },
   {
     name: "ا.د/محمد عبد المالك",
