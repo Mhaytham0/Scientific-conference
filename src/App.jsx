@@ -11,6 +11,7 @@ import PeopleList from "./components/peopleList/peopleList";
 import ConferenceIntro from "./components/about/about";
 import ResearchGuidelines from "./components/rules/rules";
 import Footer from "./components/footer/footer";
+import PaymentInfo from "./components/paymentInfo/paymentInfo";
 
 // Placeholder components for future routes
 // import NotFound from "./components/notFound/notFound"; // Create this file if not available
@@ -64,14 +65,14 @@ function App() {
             </>
           }
         />
-        {/* <Route
-          path="/people"
+        <Route
+          path="/fees"
           element={
             <>
-              <PeopleList />
+              <PaymentInfo />
             </>
           }
-        /> */}
+        />
 
         {/* 404 Page */}
         {/* <Route path="*" element={<NotFound />} /> */}

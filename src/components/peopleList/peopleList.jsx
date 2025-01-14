@@ -8,19 +8,29 @@ const people = [
     imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/salama.jpg", // Add image paths here
   },
   {
+    name: "الامام الاكبر ا.د/ احمد الطيب",
+    title: "شيخ الازهر",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/mohamed.jpg",
+  },
+  {
+    name: "أ.د/ محمود صديق",
+    title: "نائب رئيس جامعة الأزهر للدراسات العليا والبحوث",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/mohamed.jpg",
+  },
+  {
     name: "ا.د/محمد عبد المالك",
     title: "ناءب رءيس الجامعة لشؤن البنات الوجة القبلى",
     imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/mohamed.jpg",
   },
   {
-    name: "ا.د/خلود حسام حسانين",
-    title: "عميدة كلية التجارة بنات باسيوط",
-    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/kholod.jpg",
-  },
-  {
     name: " د/ علياء عبد اللطيف",
     title: "وكيل الكلية لشؤن الدراسات العليا",
     imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/alyaa.jpg",
+  },
+  {
+    name: "ا.د/خلود حسام حسانين",
+    title: "عميدة كلية التجارة بنات باسيوط",
+    imageUrl: "https://raw.githubusercontent.com/Mhaytham0/Scientific-conference/master/public/kholod.jpg",
   }
 ];
 
