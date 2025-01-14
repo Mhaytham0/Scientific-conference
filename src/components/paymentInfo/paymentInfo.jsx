@@ -4,7 +4,7 @@ import './PaymentInfo.css';
 const PaymentInfo = () => {
   return (
     <div className="payment-info">
-      <h1>معلومات الدفع</h1>
+      <h1>معلومات الدفع </h1>
       <div className="payment-card">
         <h2>:للمصريين</h2>
         <ul>
